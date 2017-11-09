@@ -230,6 +230,12 @@
     <Compile Include="Assets\NewBehaviourScript.cs" />
     <Compile Include="Assets\newscript.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\editor.unity" />
+    <None Include="Assets\editor.unity.meta" />
+    <None Include="Assets\graphics.meta" />
+    <None Include="Assets\scenes.meta" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />
 </Project>
