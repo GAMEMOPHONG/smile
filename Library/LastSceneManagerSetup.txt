@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/New Folder/scenes/scene game.unity
+- path: Assets/New Folder/map.unity
   isLoaded: 1
   isActive: 1
