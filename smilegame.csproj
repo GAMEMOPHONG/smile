@@ -13,13 +13,11 @@
     <TargetFrameworkIdentifier>.NETFramework</TargetFrameworkIdentifier>
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <TargetFrameworkProfile>Unity Subset v3.5</TargetFrameworkProfile>
-    <CompilerResponseFile>
-    </CompilerResponseFile>
+    <CompilerResponseFile></CompilerResponseFile>
     <UnityProjectType>Game:1</UnityProjectType>
     <UnityBuildTarget>StandaloneWindows64:19</UnityBuildTarget>
     <UnityVersion>2017.2.0f3</UnityVersion>
-    <RootNamespace>
-    </RootNamespace>
+    <RootNamespace></RootNamespace>
     <LangVersion>4</LangVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
@@ -227,14 +225,15 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Camerafollow.cs" />
+    <Compile Include="Assets\enemyhealth.cs" />
     <Compile Include="Assets\NewBehaviourScript.cs" />
     <Compile Include="Assets\newscript.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Assets\editor.unity" />
-    <None Include="Assets\editor.unity.meta" />
-    <None Include="Assets\graphics.meta" />
-    <None Include="Assets\scenes.meta" />
+    <Compile Include="Assets\Script\bulletHit.cs" />
+    <Compile Include="Assets\Script\camera.cs" />
+    <Compile Include="Assets\Script\Destroyme.cs" />
+    <Compile Include="Assets\Script\projecttilecontroller.cs" />
+    <Compile Include="Assets\Sprites\playercontroller.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />
